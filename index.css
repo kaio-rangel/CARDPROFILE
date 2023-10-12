@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-color:  hsl(185, 75%, 39%);;
+    
+}
+main{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+    min-height: 100vh;
+}
+.card{
+    height:484px;
+    width: 383px;
+    background-color: #fff;
+    border-radius: 20px;
+    
+}
+img{
+    width: 92px;
+    height: 92px;
+}
+.info-superior{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: kumbh sans,sans-serif;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+}
+.infosup{
+    color:hsl(227, 10%, 46%);
+}
+.letras{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 39% auto;
+    text-align: center;
+    
+}
+.numeros{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+
+}
